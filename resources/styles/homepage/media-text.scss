@@ -1,0 +1,30 @@
+section.media-text {
+  .container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 50px;
+    .left {
+      display: flex;
+      flex-direction: column;
+    }
+    .right {
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+      margin-top: 50px;
+
+      .border {
+        width: 10%;
+        border: 5px solid $primary-500;
+      }
+
+      .paragraph {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        margin-top: 25px;
+      }
+    }
+  }
+}
