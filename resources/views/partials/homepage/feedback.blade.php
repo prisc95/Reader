@@ -17,7 +17,7 @@
             <div class="img-wrapper">
             <img src="wp-content\themes\sage\resources\images\client-main.jpg" alt="">
             </div>
-            <div class="heading">
+            <div class="header">
                 <h1>Klanten</h1>
                 <h3>Feedback</h3>
             </div>
