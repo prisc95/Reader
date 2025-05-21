@@ -1,0 +1,92 @@
+section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: $background-color;
+
+  width: 100vw;
+
+  .container {
+    width: 90%;
+    height: 90%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+
+    h1 {
+      text-transform: uppercase;
+      font-size: $text-xxxl;
+    }
+
+    h2 {
+      font-size: $text-lg;
+    }
+
+    h3,
+    p {
+      font-size: $text-md;
+    }
+
+    h4 {
+      font-family: $font-md;
+      color: $primary-500;
+      font-size: $text-lg;
+      text-transform: uppercase;
+    }
+
+    h1,
+    h2,
+    h3,
+    p {
+      font-family: $font-md;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  .num {
+    h1 {
+      font-family: $font-md;
+      font-size: 15rem;
+      background-image: url(~@images/text-bg-2.jpg);
+      background-size: cover;
+      background-color: text;
+      -webkit-background-clip: text;
+      color: transparent;
+      text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    }
+  }
+
+  button {
+    width: 15rem;
+    height: 4rem;
+    background-color: $primary-400;
+    border-radius: 50px;
+    font-family: $font-md;
+    font-size: $text-lg;
+    font-weight: $font-w800;
+    color: #fff;
+    cursor: pointer;
+
+    a {
+      text-decoration: none;
+      color: #fff;
+      text-transform: uppercase;
+    }
+
+    &:hover {
+      background-color: #fff;
+      transition: all ease 0.7s;
+
+      a {
+        color: $primary-400;
+        transition: all ease 0.7s;
+      }
+    }
+  }
+}

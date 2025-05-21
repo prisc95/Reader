@@ -10,5 +10,7 @@
     @include('partials.content-page') --}}
     @include('partials.homepage.hero')
     @include('partials.homepage.media-text')
+    @include('partials.homepage.carousel')
+    @include('partials.homepage.feedback')
   @endwhile
 @endsection
