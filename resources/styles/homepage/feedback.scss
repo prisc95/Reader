@@ -1,0 +1,134 @@
+section.feedback {
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    .top {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      gap: 50px;
+
+      .header {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        margin-top: 50px;
+
+        .border {
+          width: 25%;
+          border: 5px solid $primary-500;
+        }
+      }
+    }
+
+    .feedback {
+      .top {
+        h1 {
+          text-transform: none;
+        }
+        h3 {
+          font-family: $font-cursive;
+          font-size: $text-xxxl;
+          color: $primary-500;
+        }
+
+        .img-wrapper {
+          position: relative;
+          left: 6%;
+          width: 55%;
+          height: 100%;
+          z-index: 1;
+
+          img {
+            width: 65%;
+            height: auto;
+            object-fit: cover;
+            border: 5px solid $background-color;
+          }
+        }
+      }
+      .bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .quote {
+          .quote-bg {
+            position: absolute;
+            width: 50%;
+            height: 30%;
+            background-color: #32b0ce;
+            border-radius: 3rem;
+            left: 5%;
+            top: 50%;
+            z-index: 0;
+
+            &::after {
+              content: '';
+              width: 0;
+              height: 0;
+              position: absolute;
+              border-left: 4rem solid transparent;
+              border-right: 4rem solid transparent;
+              border-bottom: 4rem solid #32b0ce;
+              bottom: -3rem;
+              left: 1rem;
+              transform: rotate(-45deg);
+            }
+          }
+
+          .content-wrapper {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 25px;
+            width: 70%;
+            background-color: $secondary-900;
+            padding: 25px;
+            z-index: 1;
+            left: 6%;
+            border-radius: 10px;
+            top: 25px;
+
+            .header {
+              width: 100%;
+              display: flex;
+              flex-direction: row;
+              justify-content: space-between;
+              z-index: 1;
+
+              i {
+                color: $primary-500;
+                font-size: $text-xxxl;
+              }
+              h1 {
+                text-transform: none;
+              }
+            }
+            .inner {
+              width: 100%;
+              z-index: 1;
+            }
+            .stars {
+              width: 100%;
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              align-items: center;
+              gap: 15px;
+              i {
+                color: yellow;
+                font-size: $text-xl;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
