@@ -52,7 +52,7 @@
         </div>
     </div>
     <button>
-        <a href="testimonials.html">Leer meer</a>
+        <a href="{{ home_url('/feedback') }}">Leer meer</a>
     </button>
     </div>
 </section>

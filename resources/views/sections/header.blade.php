@@ -14,10 +14,10 @@
            <i class="fa-solid fa-bars"></i>
       </div>
       <div class="navigation">
-         <a href="#"><span>H</span>ome</a>
-        <a href="#"><span>O</span>ver ons</a>
-        <a href="#"><span>B</span>oeken</a>
-        <a href="#"><span>F</span>eedback</a>
+         <a href="{{ home_url('/homepage') }}"><span>H</span>ome</a>
+        <a href="{{ home_url('/about-page') }}"><span>O</span>ver ons</a>
+        <a href="{{ home_url('/books') }}"><span>B</span>oeken</a>
+        <a href="{{ home_url('/feedback') }}"><span>F</span>eedback</a>
         
       </div>
        

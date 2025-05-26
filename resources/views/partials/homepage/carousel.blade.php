@@ -30,7 +30,7 @@
                 </div>
             </div>
             <button>
-                <a href="books.html">Bekijk alles</a>
+                <a href="{{ home_url('/books') }}">Bekijk alles</a>
             </button>
         
     </div>

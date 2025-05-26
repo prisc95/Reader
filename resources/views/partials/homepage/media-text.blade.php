@@ -5,7 +5,7 @@
                 <h1>01</h1>
             </div>
             <button>
-                <a href="about.html">Ontdek</a>
+                <a href="{{ home_url('/about-page') }}">Ontdek</a>
             </button>
         </div>
         <div class="right">
