@@ -1,10 +1,13 @@
 section.features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   .container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 30px;
-    width: 50%;
+    width: 70%;
     height: 30%;
     margin-bottom: 100px;
     margin-top: 50px;
@@ -26,6 +29,7 @@ section.features {
     .feature {
       width: 10rem;
       height: 10rem;
+      margin: 2rem;
       background-color: #1a1a1a;
       border-radius: 10px;
 
@@ -49,6 +53,7 @@ section.features {
       &:hover {
         width: 12rem;
         height: 12rem;
+        margin: 0;
         background-color: #fff;
         transition: all ease 0.5s;
 
