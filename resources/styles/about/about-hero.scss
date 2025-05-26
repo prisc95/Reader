@@ -9,9 +9,11 @@ section.about-hero {
   z-index: 1;
   top: -10vh;
   .container {
+    position: relative;
     display: flex;
     flex-direction: column;
     gap: 10px;
+    top: 10vh;
 
     h4 {
       margin: 0;
