@@ -6,6 +6,8 @@ section.about-hero {
     url(~@images/about-bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
+  z-index: 1;
+  top: -10vh;
   .container {
     display: flex;
     flex-direction: column;
