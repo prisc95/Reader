@@ -1,12 +1,13 @@
 @import '_variables';
 
 @import 'homepage/base';
+@import 'homepage/header';
 @import 'homepage/hero';
 @import 'homepage/media-text';
 @import 'homepage/carousel';
 @import 'homepage/feedback';
 @import 'homepage/footer';
 
-@import 'about/hero';
+@import 'about/about-hero';
 @import 'about/features';
 @import 'about/team';

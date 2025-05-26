@@ -1,0 +1,85 @@
+header.banner {
+  section.navbar {
+    width: 100vw;
+    height: 10vh;
+    background-color: $background-color;
+
+    &.show {
+      .container {
+        .navigation {
+          top: 0;
+          transition: 0.4s linear;
+        }
+      }
+    }
+
+    .container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 0;
+
+      .logo {
+        h1 {
+          font-family: $font-cursive;
+          font-size: $text-xxl;
+          color: $primary-500;
+        }
+      }
+
+      .burger-menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+
+        i {
+          color: $primary-500;
+          font-size: $text-xxl;
+          z-index: 999;
+        }
+      }
+
+      .navigation {
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        background-color: $background-color;
+        top: -100vh;
+        left: 0;
+        transition: top 0.3s;
+        z-index: 1;
+
+        a {
+          text-decoration: none;
+          font-family: $font-md;
+          font-size: $text-xxxl;
+          font-weight: $font-w700;
+          color: #fff;
+
+          span {
+            font-family: $font-cursive;
+            font-size: $text-xxxl;
+            color: $primary-500;
+          }
+
+          &:hover {
+            color: $primary-500;
+            transition: 0.3s linear;
+
+            span {
+              font-size: $text-xxxxl;
+              transition: 0.3s linear;
+            }
+          }
+        }
+      }
+    }
+  }
+}
