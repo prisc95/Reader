@@ -21,6 +21,7 @@ header.banner {
       margin-bottom: 0;
 
       .logo {
+        z-index: 2;
         h1 {
           font-family: $font-cursive;
           font-size: $text-xxl;
@@ -33,6 +34,7 @@ header.banner {
         justify-content: center;
         align-items: center;
         cursor: pointer;
+        z-index: 999;
 
         i {
           color: $primary-500;
@@ -54,7 +56,7 @@ header.banner {
         top: -100vh;
         left: 0;
         transition: top 0.3s;
-        z-index: 1;
+        z-index: 2;
 
         a {
           text-decoration: none;
