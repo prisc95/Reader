@@ -1,0 +1,20 @@
+section.books-hero {
+  position: relative;
+  height: 50vh;
+
+  background: linear-gradient(rgba(33, 33, 33, 0.7), rgba(33, 33, 33, 0.5)),
+    url(~@images/books-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+  top: -10vh;
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    h4 {
+      margin: 0;
+    }
+  }
+}
