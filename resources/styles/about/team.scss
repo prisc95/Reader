@@ -21,6 +21,7 @@ section.team {
           height: 15rem;
           clip-path: circle(50%);
           filter: grayscale(100%);
+          object-fit: cover;
 
           &:hover {
             filter: grayscale(0%);
