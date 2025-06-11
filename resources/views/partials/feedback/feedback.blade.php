@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
-<section class="feedback">
+<section class="feedback-subpage">
     <div class="container">
         <div class="top">
             <h3>Onze klanten</h3>

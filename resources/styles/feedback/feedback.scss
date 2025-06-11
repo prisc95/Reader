@@ -1,6 +1,8 @@
-section.feedback {
+section.feedback-subpage {
   .container {
     position: relative;
+    display: flex;
+    flex-direction: column;
     z-index: 1;
     .top {
       display: flex;
